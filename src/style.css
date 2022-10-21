@@ -11,6 +11,7 @@ body {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  margin: auto;
 }
 
 .card-value-suit {
@@ -34,11 +35,11 @@ body {
   left: 35%;
 }
 
-.card.spades,
-.card.clubs {
+.spades,
+.clubs {
   color: black;
 }
-.card.hearts,
-.card.diamonds {
+.hearts,
+.diamonds {
   color: red;
 }

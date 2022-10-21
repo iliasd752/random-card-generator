@@ -47,7 +47,7 @@ window.onload = function() {
       ? (entity = "&diams;")
       : (entity = "&" + cardSign.toLowerCase() + ";");
     const card = document.createElement("div");
-    card.classList.add("card", cardValue.toLowerCase());
+    card.classList.add("card", cardSign.toLowerCase(), cardValue.toLowerCase());
     card.innerHTML =
       '<span class="card-value-suit top">' +
       cardValue +
