@@ -43,3 +43,9 @@ body {
 .diamonds {
   color: red;
 }
+
+button {
+  margin: auto;
+  position: absolute;
+  display: inline-block;
+}
